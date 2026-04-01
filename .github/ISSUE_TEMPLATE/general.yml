@@ -1,34 +1,31 @@
 name: General Issue
 description: Report a bug, suggest a feature, or raise a general issue
-title: ""
-labels: []
-assignees: []
 body:
   - type: dropdown
     id: issue-type
     attributes:
-      label: 📝 Issue Type
-      description: Select the type of issue
+      label: "📝 Issue Type"
+      description: "Select the type of issue"
       options:
-        - 🛑 Bug / Issue
-        - ❓ Suggestion / Feature Request
-        - 🛠️ Other
+        - "🛑 Bug / Issue"
+        - "❓ Suggestion / Feature Request"
+        - "🛠️ Other"
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: 📖 Description
-      description: Describe the issue in detail
+      label: "📖 Description"
+      description: "Describe the issue in detail"
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: 🔄 Steps to Reproduce (If reporting a bug)
-      description: How can we reproduce the issue?
+      label: "🔄 Steps to Reproduce (If reporting a bug)"
+      description: "How can we reproduce the issue?"
       placeholder: |
         1. Go to '...'
         2. Do '....'
@@ -37,11 +34,11 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: ✅ Expected Behavior
-      description: What did you expect to happen?
+      label: "✅ Expected Behavior"
+      description: "What did you expect to happen?"
 
   - type: textarea
     id: screenshots
     attributes:
-      label: 📸 Screenshots & Additional Context
-      description: Add any screenshots or additional context here
+      label: "📸 Screenshots & Additional Context"
+      description: "Add any screenshots or additional context here"
