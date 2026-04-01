@@ -1,0 +1,42 @@
+name: General Issue
+description: Report a bug, suggest a feature, or raise a general issue
+title: ""
+labels: []
+assignees: []
+body:
+  - type: dropdown
+    attributes:
+      label: 📝 Issue Type
+      description: Select the type of issue
+      options:
+        - 🛑 Bug / Issue
+        - ❓ Suggestion / Feature Request
+        - 🛠️ Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 📖 Description
+      description: Describe the issue in detail
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🔄 Steps to Reproduce (If reporting a bug)
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Go to '...'
+        2. Do '....'
+        3. See error
+
+  - type: textarea
+    attributes:
+      label: ✅ Expected Behavior
+      description: What did you expect to happen?
+
+  - type: textarea
+    attributes:
+      label: 📸 Screenshots & Additional Context
+      description: Add any screenshots or additional context here
